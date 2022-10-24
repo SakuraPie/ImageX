@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ImageX</string>
+    <string name="radio_0.2" translatable="false">20%</string>
+    <string name="radio_0.4" translatable="false">40%</string>
+    <string name="radio_0.6" translatable="false">60%</string>
+    <string name="radio_0.8" translatable="false">80%</string>
+    <string name="btn_select">Select</string>
+    <string name="btn_make">Make</string>
+    <string name="generate_success">Generate Success!</string>
+    <string name="main_loading">Generating…</string>
+    <string name="generate_error">Error!</string>
+    <string name="quality">Quality:%s</string>
+    <string name="select_image">Please select an image first.</string>
+    <string name="format_jpeg" translatable="false">JPEG</string>
+    <string name="format_png" translatable="false">PNG</string>
+    <string name="yes_or_no" translatable="false">yes_or_no</string>
+</resources>
