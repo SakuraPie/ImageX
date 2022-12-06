@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ImageX</string>
+    <string name="btn_select">选择图片</string>
+    <string name="btn_make">生成</string>
+    <string name="generate_success">生成成功！</string>
+    <string name="main_loading">生成中......</string>
+    <string name="generate_error">错误！</string>
+    <string name="quality">品质：%s</string>
+    <string name="select_image">请先选择一张图片。</string>
+</resources>

@@ -96,35 +96,44 @@
                 android:text="@string/quality" />
         </LinearLayout>
 
-        <LinearLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:paddingTop="40dp"
+            android:paddingTop="20dp"
             android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/image_yes_or_no"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ic_no"
-                android:contentDescription="@string/yes_or_no" />
+                android:contentDescription="@string/yes_or_no"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_no" />
 
             <Button
                 android:id="@+id/btn_select"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
                 android:text="@string/btn_select"
-                app:backgroundTint="#009688" />
+                app:backgroundTint="#009688"
+                app:layout_constraintBottom_toTopOf="@+id/btn_make"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_yes_or_no" />
 
             <Button
                 android:id="@+id/btn_make"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
                 android:text="@string/btn_make"
-                app:backgroundTint="#009688" />
-        </LinearLayout>
+                app:backgroundTint="#009688"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
